@@ -1,43 +1,54 @@
-Claro, aquí tienes un `README.md` profesional y claro para tu proyecto **SISGESA**:
+Perfecto, aquí tienes el contenido ya formateado en **Markdown** listo para usar en tu archivo `README.md`:
 
 ```markdown
 # SISGESA - Sistema de Gestión de Asistencia Académica
 
-SISGESA es una aplicación de consola desarrollada en Python bajo el paradigma estructurado, diseñada para automatizar el registro y control de la asistencia académica en instituciones educativas.
+**SISGESA** es una aplicación de consola desarrollada en Python bajo el paradigma estructurado. Su objetivo es automatizar el registro y control de la asistencia académica en instituciones educativas, mejorando los procesos administrativos y académicos mediante el uso de archivos JSON y seguridad con SHA-256.
 
-## Características
+## 📌 Características Principales
 
-- Inicio de sesión con verificación y encriptación SHA-256
-- Menú interactivo con opciones claras
-- Registro de estudiantes, docentes, grupos y módulos
-- Asignación de estudiantes y docentes a módulos
-- Registro de asistencias con fecha y hora de entrada/salida
-- Consultas por código (grupos, módulos, estudiantes, docentes)
-- Generación de informes de asistencia mensual
-- Persistencia de datos usando archivos JSON
-- Cambio de contraseña seguro
-- Manejo de errores y validación robusta
+- 🔐 Inicio de sesión con verificación y encriptación SHA-256
+- 🧾 Menú interactivo con múltiples opciones
+- 👥 Registro y gestión de estudiantes, docentes, grupos y módulos
+- 📅 Registro de asistencias con fecha y hora
+- 🔍 Consultas por código (grupos, módulos, estudiantes y docentes)
+- 📊 Generación de informes detallados por mes
+- 💾 Persistencia de datos mediante archivos JSON
+- ⚙️ Cambio de contraseña y validación robusta
+- ❌ Manejo de errores para evitar interrupciones
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
-- `main.py`: Archivo principal del programa
-- `modulos/`: Contiene los módulos organizados por funcionalidad
-- `data/`: Carpeta para los archivos JSON con la información persistente
-- `utils/`: Funciones auxiliares como encriptación y validaciones
+```
+SISGESA/
+├── main.py
+├── modulos/
+│   ├── usuarios.py
+│   ├── estudiantes.py
+│   ├── docentes.py
+│   └── ...
+├── utils/
+│   ├── seguridad.py
+│   └── validaciones.py
+├── data/
+│   ├── estudiantes.json
+│   ├── docentes.json
+│   └── ...
+```
 
-## Requisitos Técnicos
-
-- Python 3.x
-- No requiere librerías externas
-- Ejecutar desde consola o terminal
-
-## Ejecución
+## ▶️ Ejecución
 
 ```bash
 python main.py
 ```
 
-## Licencia
+## 🧠 Requisitos Técnicos
 
-Este proyecto es de uso académico para Campuslands - 2025.
+- Python 3.x
+- No requiere librerías externas
+- Compatible con Windows, macOS y Linux
+
+## 📚 Licencia
+
+Proyecto desarrollado con fines académicos para **Campuslands - 2025**.
 ```
