@@ -1,6 +1,3 @@
-Perfecto, aquí tienes el contenido ya formateado en **Markdown** listo para usar en tu archivo `README.md`:
-
-```markdown
 # SISGESA - Sistema de Gestión de Asistencia Académica
 
 **SISGESA** es una aplicación de consola desarrollada en Python bajo el paradigma estructurado. Su objetivo es automatizar el registro y control de la asistencia académica en instituciones educativas, mejorando los procesos administrativos y académicos mediante el uso de archivos JSON y seguridad con SHA-256.
@@ -51,4 +48,4 @@ python main.py
 ## 📚 Licencia
 
 Proyecto desarrollado con fines académicos para **Campuslands - 2025**.
-```
+
